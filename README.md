@@ -396,7 +396,7 @@ but this algorithm also finds articles about Chinese propaganda and Trump's poli
 Both of these articles are highly relevant to coronavirus discussions,
 but a simple keyword search for corona or related terms would not find these articles.
 
-<!--
+<--
 **Part 3:**
 
 Select another topic related to national security.
@@ -412,7 +412,7 @@ Your goal should be to discover what topics that www.lawfareblog.com considers t
 1. Run the following commands, and paste their output into the code blocks below.
    
    Task 1, part 1:
-   ```
+```
 $ python3 pagerank.py --data=data/small.csv.gz --verbose
 DEBUG:root:computing indices
 DEBUG:root:computing values
