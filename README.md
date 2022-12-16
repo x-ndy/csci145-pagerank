@@ -1,3 +1,41 @@
+# Word2Vec
+
+## Task 1
+```
+python3 pagerank.py --data=data/lawfareblog.csv.gz --search_query='weapons'
+
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+INFO:root:rank=0 pagerank=4.5715e-03 url=www.lawfareblog.com/why-did-you-wait-moral-emptiness-and-drone-strikes
+INFO:root:rank=1 pagerank=3.1107e-03 url=www.lawfareblog.com/dc-district-court-dismisses-journalists-drone-lawsuit
+INFO:root:rank=2 pagerank=2.0231e-03 url=www.lawfareblog.com/revived-cia-drone-strike-program-comments-new-policy
+INFO:root:rank=3 pagerank=1.9667e-03 url=www.lawfareblog.com/us-court-appeals-dc-circuit-dismisses-suit-over-us-drone-strike
+INFO:root:rank=4 pagerank=1.1788e-03 url=www.lawfareblog.com/iran-shoots-down-us-drone-domestic-and-international-legal-implications
+INFO:root:rank=5 pagerank=1.1620e-03 url=www.lawfareblog.com/slaughterbots-and-other-anticipated-autonomous-weapons-problems
+INFO:root:rank=6 pagerank=1.1276e-03 url=www.lawfareblog.com/german-courts-weigh-legal-responsibility-us-drone-strikes
+INFO:root:rank=7 pagerank=8.3738e-04 url=www.lawfareblog.com/shift-jsoc-drone-strikes-does-not-mean-cia-has-been-sidelined
+INFO:root:rank=8 pagerank=7.8704e-04 url=www.lawfareblog.com/atomwaffen-division-member-pleads-guilty-firearms-charge
+INFO:root:rank=9 pagerank=7.8570e-04 url=www.lawfareblog.com/waiving-imminent-threat-test-cia-drone-strikes-pakistan
+```
+
+## Task 2
+
+```
+python3 pagerank2.py --data=data/lawfareblog.csv.gz --search_query='biden' --s_weight=.01
+
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+INFO:root:rank=0 pagerank=0.02051282301545143 url=www.lawfareblog.com/new-obama-biden-campaign-bumper-sticker
+INFO:root:rank=1 pagerank=0.0109577476978302 url=www.lawfareblog.com/trump-encourages-china-investigate-biden-family-clouding-trade-talks
+INFO:root:rank=2 pagerank=0.010501262731850147 url=www.lawfareblog.com/live-brookings-host-vice-president-joe-biden
+INFO:root:rank=3 pagerank=0.005239618942141533 url=www.lawfareblog.com/document-trump-revokes-obama-executive-order-counterterrorism-strike-casualty-reporting
+INFO:root:rank=4 pagerank=0.00207848334684968 url=www.lawfareblog.com/obamas-term-end-thoughts-targeted-killing
+INFO:root:rank=5 pagerank=0.0009015162941068411 url=www.lawfareblog.com/thoughts-about-obama-administrations-counterterrorism-paradigm-light-al-liby-and-ikrima-operations
+INFO:root:rank=6 pagerank=0.000671088753733784 url=www.lawfareblog.com/president-obama-secures-final-senate-vote-necessary-defend-iran-deal
+INFO:root:rank=7 pagerank=0.0006702161044813693 url=www.lawfareblog.com/obamas-moral-muse
+INFO:root:rank=8 pagerank=0.0006524198688566685 url=www.lawfareblog.com/obamas-legacy-law-transparency-and-politics-anguish
+INFO:root:rank=9 pagerank=0.0006270432495512068 url=www.lawfareblog.com/speaking-law-obama-administrations-addresses-national-security-law
+```
+
+# Old Project
 # Pagerank Project
 
 In this project, you will create a simple search engine for the website <https://www.lawfareblog.com>.
